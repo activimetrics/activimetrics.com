@@ -1,0 +1,33 @@
+doctype 5
+html(lang="en")
+  head
+    title Activimetrics---Life is Data
+    link(rel='stylesheet', href='/build.css')
+    link(href='http://fonts.googleapis.com/css?family=Signika:600,400',rel='stylesheet',type='text/css')
+
+  body(data-spy="scroll",data-target="#navlist")
+    .topbar
+    .container#main
+      .row
+        .span3#navblock
+          header
+            h1 Activimetrics
+              p.text-right
+                small life is data
+          #navlist
+            ul.nav.nav-pills.nav-stacked
+              li
+                a(href="#main") Home
+              li
+                a(href="#who") Who we are
+              li
+                a(href="#what") What we do
+              li
+                a(href="#contact") Contact and Legal
+
+
+        block content
+    script(src="/build.js")
+    script
+      // fire things up
+      require('boot') 

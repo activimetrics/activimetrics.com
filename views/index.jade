@@ -1,0 +1,149 @@
+extends layout
+
+block content
+  .span6.offset3
+    section#home
+      header.page-header
+        h1 Open data. Open models. Expertise.
+      p
+        :markdown
+          Activimetrics offers consulting and custom software development
+          related to transportation systems analysis, planning, policy
+          development, and any areas where our in-house expertise can bring
+          value.
+
+
+    section#who
+      header.page-header
+        h1 Who we are
+          .up-btn.pull-right
+            a(href="#main",title="Back to top")
+              i.icon-circle-arrow-up.icon 
+              &nbsp;
+  
+      h2 James Marca
+      :markdown
+        James Marca is a founding member of Activimetrics.  He has over 15
+        years of experience in applying research to solve transportation
+        challenges.  His interests include studying the applications of
+        information and communications technologies to transportation;
+        discovering new applications for existing data streams; collecting
+        real-time vehicle telematics using wireless communications systems;
+        and how communications technology can lead to travel patterns and
+        urban forms that are more sustainable.
+  
+      p You can reach James at&nbsp
+        a(href='mailto:james@activimetrics.com')
+          code james@activimetrics.com
+  
+  
+      h2 Craig Rindt
+      :markdown
+  
+        Craig Rindt is a founding member of Activimetrics.  He has Ph.D. in
+        Transportation Engineering for his work in travel behavior modeling and
+        transportation systems management using intelligent transportation systems
+        technology.  His recent research has emphasized the use of advanced
+        communications and ubiquitous computing technology for improving
+        transportation system performance.
+  
+      p You can reach Craig at&nbsp
+        a(href='mailto:crindt@activimetrics.com')
+          code crindt@activimetrics.com
+  
+  
+    section#what
+      header.page-header
+        h1 What we do
+          .up-btn.pull-right
+            a(href="#main",title="Back to top")
+              i.icon-circle-arrow-up.icon 
+              &nbsp;
+  
+      h2 Open data and models
+      :markdown
+        We are strong believers in the power of open models, data, and code to
+        more rapidly advance the state of the art.  Our work is available on
+        [github](https://github.com/activimetrics).
+  
+      h2 Products
+      :markdown
+        We are currently developing an innovative transportation
+        information backbone to solve many of the challenges
+        plaguing the development of next-generation transportation
+        management systems that will rely on pervasive, but
+        unreliable, communications and mobile computers.
+  
+      h2 Design and Development
+      :markdown
+        Whether you're facing transportation's "big data" challenges
+        or you simply need a visualization tool for data you've
+        already organized, Activimetrics has the talent and
+        experience to rapidly design, develop, and deploy standalone
+        solutions or components for integration with larger systems.
+  
+      h2 Research
+      :markdown
+        With over 25 years of combined experience conducting
+        research and research evaluation, and research deployment,
+        [Activimetrics principals](#who) can offer new insights to
+        challenges in the transportation domain and beyond.
+  
+  
+    section#contact
+      header.page-header
+        h1 Contacting Activimetrics
+          .up-btn.pull-right
+            a(href="#main",title="Back to top")
+              i.icon-circle-arrow-up.icon 
+              &nbsp;
+      p If you would like to get in touch with us...
+        blockquote
+          .vcard
+            .fn
+              span.name Activimetrics, LLC
+            .adr
+              span.street-address 2973 Harbor Blvd, #169
+              br
+              span.locality Costa Mesa, 
+              span.region CA
+              span.postal-code &nbsp;92626
+            table.econtacts
+              tr.tel
+                th
+                  div
+                    span.type Voice
+                    span.type Work
+                  span tel:
+                td
+                  span.value 949-791-7557
+              tr.tel
+                th
+                  div
+                    span.type.fax Fax
+                    span fax:
+                td
+                  span.value 760-634-1981
+              tr
+                th email:
+                td
+                  a.email(href='mailto:crindt@activimetrics.com') crindt@activimetrics.com
+              tr
+                th web:
+                td
+                  a(class='url',href='http://www.activimetrics.com',target='blank') www.activimetrics.com
+  .span3.offset9#sidebar
+    aside#social-content
+      section.twitter
+        h2 What we're saying...
+        .text-center
+          a.btn.btn-small.btn-info(href="https://twitter.com/activimetrics",data-show-count="false",data-size="large") 
+            i.icon-twitter
+            | &nbsp;follow @activimetrics
+          a.btn.btn-small.btn-info(href="https://github.com/activimetrics",data-show-count="false",data-size="large") 
+            i.icon-github.icon-large
+            | &nbsp;activimetrics on github
+        #twitter-timeline
+      
+            <div class="follow"><a href="https://twitter.com/furkot" data-show-count="false" data-size="large" class="twitter-follow-button">Follow @furkot</a></div>
+            <div id="twitter-timeline"></div>

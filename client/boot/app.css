@@ -1,0 +1,119 @@
+body {
+    /*font-family: 'Signika', sans-serif;*/
+    font-size: 12pt;
+}
+
+.page-header {
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    padding-top: 1em;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+
+small {
+ font-size: smaller;
+ }
+big {
+ font-size: larger;
+ }
+h1 {
+ font-size: xx-large;
+ }
+h2 {
+ font-size: x-large;
+ }
+h3 {
+ font-size: large;
+ }
+h4 {
+ font-size: medium;
+ }
+h5 {
+ font-size: small;
+ }
+h6 {
+ font-size: xx-small;
+ }
+font[size=1] {
+ font-size: xx-small;
+ }
+font[size=2] {
+ font-size: small;
+ }
+font[size=3] {
+ font-size: medium;
+ }
+font[size=4] {
+ font-size: large;
+ }
+font[size=5] {
+ font-size: x-large;
+ }
+font[size=6] {
+ font-size: xx-large;
+ }
+font[size=7] {
+ font-size: 300%;
+ }
+font[size=-1] {
+ font-size: smaller;
+ }
+font[size=+1] {
+ font-size: larger;
+ }
+font[size=-2] {
+ font-size: 60%;
+ }
+font[size=+2] {
+ font-size: 150%;
+ }
+font[size=+4] {
+ font-size: 300%;
+ }
+ 
+
+
+#main > section > p {
+    margin-left: 3em;
+}
+
+#main > section, aside {
+    padding-top: 1em;
+}
+
+
+@media (min-width: 768px) { 
+    .topbar {
+        position:fixed;
+        width: 100%;
+        border-top: solid black 4px;
+    }
+
+    #navblock {
+        position:fixed;
+    }
+
+    #sidebar {
+        position:fixed;
+    }
+
+    .container#main {
+        padding-top:1em;
+        margin-bottom: 50em; /* Ensure we can scroll all the way down */
+    }
+}
+
+.pull-right > a {
+    text-decoration: none;
+}

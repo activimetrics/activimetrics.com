@@ -1,0 +1,16 @@
+{
+  "name": "component-theleagueof-raleway",
+  "repo": "crindt/component-theleagueof-raleway",
+  "description": "A component for the League of Movable Type's Raleway font",
+  "version": "0.0.1",
+  "styles": [
+      "raleway.css"
+  ],
+  "files": [
+      "raleway_thin-webfont.eot",
+      "raleway_thin-webfont.svg",
+      "raleway_thin-webfont.ttf",
+      "raleway_thin-webfont.woff"
+  ],
+  "license": "MIT"
+}
