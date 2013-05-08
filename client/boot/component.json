@@ -8,6 +8,6 @@
     "component/jquery": "*" 
   },
   "scripts": ["index.js"],
-  "styles": ["app.css","twitter-timeline.css"],
+  "styles": ["app.css","twitter-timeline.css","vcard.css"],
   "local": ["component-theleagueof-raleway"]
 }

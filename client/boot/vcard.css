@@ -1,0 +1,31 @@
+.vcard {
+  clear: both;
+  /* Two entries guarentees min is satified */ }
+  .vcard section.detail {
+    min-height: 250px; }
+  .vcard .n .honorific-prefix {
+    display: none; }
+  .vcard .photo {
+    float: right; }
+  .vcard .photo {
+    width: 200px;
+    height: auto; }
+  .vcard .mapphoto {
+    float: right;
+    width: 250px;
+    height: auto; }
+  .vcard .org {
+    /* hide the organization, everyone is Activimetrics */
+    display: none; }
+    .vcard .org.fn {
+      /* Unless it's the org entry */
+      display: block; }
+  .vcard h5.contact {
+    margin-top: 1em; }
+  .vcard table.econtacts th {
+    text-align: right; }
+  .vcard table.econtacts th, .vcard table.econtacts td {
+    min-width: 4em;
+    padding-left: 5px; }
+  .vcard .tel .type {
+    display: none; }
