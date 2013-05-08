@@ -5,12 +5,22 @@
 
 ## Installation
 
-    $ component install crindt/activimetrics.com
+    $ npm install
+    $ component install
+    $ make
+    
+## Execution
 
-## API
+    $ node server.js
+    
+## Organization
 
-   
+    ./server.js                                # the web server, uses express
+    ./views/*.jade                             # html templates
+    ./client/bootf                             # client-side javascript and css, in component_js format
+    ./client/component-theleagueof-raleway/    # Raleway font packaged as a local component
+    
+## Details
 
-## License
-
-  MIT
+There's only one page.  It's in `views/index.jade`.  We're using
+bootstrap and font-awesome for styling.  
