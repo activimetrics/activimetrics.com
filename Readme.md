@@ -1,6 +1,6 @@
 # activimetrics.com
 
-  The Activimetrics website
+  The Activimetrics website, which should be running live [here](http://www.activimetrics.com).
 
 ## Installation
 
