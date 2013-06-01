@@ -19,6 +19,10 @@ app.get("/", function(req, res) {
   res.render('index');
 });
 
+app.get("/academic", function(req, res) {
+  res.redirect(301, "/#academic")
+})
+
 app.listen(port,'0.0.0.0', function(e){
     if(e){
         // problems
