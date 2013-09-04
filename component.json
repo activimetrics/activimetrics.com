@@ -4,6 +4,12 @@
   "description": "The Activimetrics website",
   "version": "0.0.1",
   "development": {},
-  "local": [ "boot" ],
-  "paths": [ "client" ]
+  "local": [
+    "boot"
+  ],
+  "paths": [
+    "client"
+  ],
+  "dependencies": {
+  }
 }

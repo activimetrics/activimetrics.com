@@ -3,11 +3,10 @@
   "description": "Main app boot component",
   "dependencies": {
     "btknorr/bootstrap": "*",
-    "code42day/twitter-timeline": "*",
     "components/font-awesome": "*",
-    "component/jquery": "*" 
+    "component/jquery": "*"
   },
   "scripts": ["index.js"],
   "styles": ["app.css","twitter-timeline.css","vcard.css"],
-  "local": ["component-theleagueof-raleway"]
+  "local": ["component-theleagueof-raleway","code42day-twitter-timeline"]
 }
