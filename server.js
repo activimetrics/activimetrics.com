@@ -1,12 +1,7 @@
 var express = require("express"),
     app     = express(),
     port    = parseInt(process.env.PORT, 10) || 3000;
-var qs = require('qs')
 var url = require('url')
-var httpProxy = require('http-proxy');
-var http = require('http');
-var twitter = require('ntwitter');
-
 var twitter = require('ntwitter');
 
 var auth = {
@@ -75,16 +70,6 @@ app.get("/tweets", function(req, res) {
   res.json(tweets)
 })
 
-app.listen(port,'0.0.0.0', function(e){
-  if(e){
-    // problems
-    console.log('cannot start server')
-    throw new Error(e)
-  }
-  console.log("Express server listening port" + port);
-  console.log('Current gid: ' + process.getgid());
-})
-
 try {
   process.setgid(65533);
   console.log('New gid: ' + process.getgid());
@@ -102,3 +87,13 @@ catch (err) {
   console.log('Failed to set uid: ' + err);
   if(process.getuid() === 0) throw(err);
 }
+
+app.listen(port,'0.0.0.0', function(e){
+  if(e){
+    // problems
+    console.log('cannot start server')
+    throw new Error(e)
+  }
+  console.log("Express server listening port" + port);
+  console.log('Current gid: ' + process.getgid());
+})
