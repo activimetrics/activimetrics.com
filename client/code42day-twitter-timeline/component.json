@@ -1,0 +1,24 @@
+{
+  "name": "twitter-timeline",
+  "repo": "code42day/twitter-timeline",
+  "description": "Displays twitter timeline similarly to twitter widget but without iframe and with more flexible styling options.",
+  "version": "0.0.3",
+  "keywords": [
+    "twitter"
+  ],
+  "dependencies": {
+    "matthewmueller/json-to-dom": "*",
+    "component/moment": "*",
+    "code42day/jsonp": "*",
+    "visionmedia/superagent": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "twitter-timeline.css"
+  ]
+}
