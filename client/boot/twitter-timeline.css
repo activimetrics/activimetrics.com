@@ -1,26 +1,26 @@
-a {
+#twitter-timeline a {
     text-decoration: none;
 }
-ul {
+#twitter-timeline ul {
     list-style: none;
 }
-.timeline {
+#twitter-timeline .timeline {
     width: 100%;
     margin: 10px auto;
 }
-.tweet {
+#twitter-timeline .tweet {
     padding: 1em;
     background: #eee;
     margin: 1em 0;
 }
-.date {
+#twitter-timeline .date {
     display: block;
     float: right;
     font-size: .8em;
 }
-.text {
+#twitter-timeline .text {
     clear: both;
 }
-.photo a[href] {
+#twitter-timeline .photo a[href] {
     margin-top: 1em;
 }

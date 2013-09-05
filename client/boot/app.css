@@ -88,6 +88,10 @@ font[size=+4] {
     margin-left: 1.5em;
 }
 
+#main section > h3 {
+    margin-left: 0.5em;
+}
+
 #main section, aside {
     padding-top: 1em;
 }
