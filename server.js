@@ -36,7 +36,7 @@ twit
   })
 
 
-twit.stream('user', {with: 'followings'}, function(stream) {
+twit.stream('user', {'with': 'followings'}, function(stream) {
     stream.on('data', function (data) {
       console.log(data);
       tweets.unshift(data)
@@ -48,16 +48,17 @@ twit.stream('user', {with: 'followings'}, function(stream) {
 app.configure(function(){
   app.set('views', __dirname + '/views');
   app.set('view engine', 'jade');
+    app.use(express.logger({buffer:5000}))
   app.use(express.methodOverride());
   app.use(express.bodyParser());
   app.use(express.static(__dirname + '/public'));
   app.use(express.errorHandler({
-    dumpExceptions: true, 
+    dumpExceptions: true,
     showStack: true
   }));
   app.use(app.router);
 });
-    
+
 app.get("/", function(req, res) {
   res.render('index');
 });
